@@ -23,6 +23,10 @@ body {
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
 }
+.grid-4-columns {
+  grid-template-columns: 2fr 1fr 1fr;
+  text-align: center;
+}
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
@@ -48,6 +52,13 @@ section a {
 }
 section.secondary {
   background-color: darkblue;
+}
+section.thirdly {
+  background-color: #12101d;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
 }
 main {
   background: linear-gradient(
